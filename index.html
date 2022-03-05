@@ -48,14 +48,14 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#speakers">Judges</a></li>
+          <li><a href="#speakers">Staff</a></li>
           <li><a href="#schedule">Schedule</a></li>
-         <!-- <li><a href="#venue">Venue</a></li>
-          <li><a href="#hotels">Hotels</a></li>
+     
+        <!--   <li><a href="#hotels">Hotels</a></li>
           <li><a href="#gallery">Gallery</a></li> -->
           <li><a href="#supporters">Sponsors</a></li>
-          <li><a href="mailto:keevan163@gmail.com?cc=, aaryanchitnis@gmail.com, amoghganjikunta@gmail.com
-&bcc=&subject=Contact%20eduCon&body=">Contact</a></li>
+          <li><a href="mailto:admin@educatehacks.com">Contact</a>  </li>
+              <li><a href="https://bank.hackclub.com/donations/start/educatehacks"><b>Donate</b></a></li>
           <li class="buy-tickets"><a href="https://warde-high-school.devpost.com/"target="_blank">Register</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -104,8 +104,8 @@
     <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Event Judges</h2>
-          <p>Here are the official Judges for this event</p>
+          <h2>Event Staff</h2>
+          <p>Here are the volunteer stuff for this event</p>
         </div>
 
         <!-- SPEAKER IMG NEEDS TO BE 640 × 480 pixels -->
@@ -116,7 +116,7 @@
               <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3>Amogh Ganjikunta</h3>
-                <p>President and organizer</p>
+                <p>President/Organizer</p>
                 <div class="social">
                 
                 </div>
@@ -128,7 +128,7 @@
               <img src="img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
               <div class="details">
                 <h3>Aaryan Chitnis</h3>
-                <p>Official Judge</p>
+                <p>Marketing/Organizer</p>
                 <div class="social">
                  
                 </div>
@@ -140,7 +140,7 @@
               <img src="img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
                 <h3>Keevan Leech</h3>
-                <p>Official Judge</p>
+                <p>Admin/Organizer</p>
                 <div class="social">
                  
                 </div>
@@ -496,19 +496,19 @@
               <img src="img/supporters/4.png" class="img-fluid" alt="">
             </div>
           </div>
-            <!--
+          
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <img src="img/supporters/5.png" class="img-fluid" alt="">
             </div>
           </div>
-        
+     
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <img src="img/supporters/6.png" class="img-fluid" alt="">
             </div>
           </div>
-          
+             <!--
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <img src="img/supporters/7.png" class="img-fluid" alt="">
@@ -546,8 +546,7 @@
                   <a data-toggle="collapse" class="collapsed" href="#faq1">How can my business become a sponsor of this event?<i class="fa fa-minus-circle"></i></a>
                   <div id="faq1" class="collapse" data-parent="#faq-list">
                     <p>
-                     <a href="mailto:keevan163@gmail.com?cc=, aaryanchitnis@gmail.com, amoghganjikunta@gmail.com
-&bcc=&subject=Sponsorship%20Request&body=Include Name, Company, phone number, and what you are offering for this event">Email Us</a>
+                 <a href="mailto:sponsorship@educatehacks.com">Email Us</a>  
 
 With any sponsorship requests
                     </p>
@@ -790,6 +789,30 @@ With any sponsorship requests
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBgWRstv566r79qa6Y1gHF48J0p3wmmxpM",
+    authDomain: "educatehacks-4408f.firebaseapp.com",
+    projectId: "educatehacks-4408f",
+    storageBucket: "educatehacks-4408f.appspot.com",
+    messagingSenderId: "335211014676",
+    appId: "1:335211014676:web:2b529360e41042c6e0d501",
+    measurementId: "G-2HBW2L97KJ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 
 </html>
