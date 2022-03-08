@@ -4,3 +4,6 @@ Site Powered By Vercel
 
 [Host on Vercel Here]([https://vercel.com/](https://vercel.com/?utm_source=educatehacks&utm_campaign=oss))
 
+
+
+[<img src="./8.svg" width="100" alt="alt text">](https://vercel.com/?utm_source=educatehacks&utm_campaign=oss)
